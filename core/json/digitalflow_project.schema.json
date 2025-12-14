@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "project_id": "P001-2025",
+    "language": "fr",
+    "created_at": "ISO_DATE",
+    "updated_at": "ISO_DATE",
+    "version": "v1.0",
+    "status": "diagnostic_completed"
+  },
+
+  "client": {
+    "id": "CLIENT_ID",
+    "company_name": "Entreprise XYZ",
+    "country": "RDC",
+    "sector": "Commerce",
+    "contacts": {
+      "email": "contact@entreprise.com",
+      "phone": "+243000000000"
+    },
+    "budget_range": {
+      "min": 500,
+      "max": 2000,
+      "currency": "USD"
+    }
+  },
+
+  "forfait": {
+    "selected": "PRO",
+    "available": ["BASIC", "PRO", "ENTERPRISE"],
+    "depth_level": 2,
+    "features_unlocked": {
+      "diagnostic_depth": "medium",
+      "economic_analysis": true,
+      "roadmap_detail": "medium",
+      "technical_detail": "medium"
+    }
+  },
+
+  "diagnostic": {
+    "responses": {},
+    "scores": {
+      "global": 75,
+      "internal_management": 70,
+      "customer_relation": 80,
+      "digital_infrastructure": 65,
+      "automation_ai": 85
+    },
+    "classification": "INTERMEDIAIRE",
+    "interpretation": {
+      "summary": "",
+      "strengths": [],
+      "weaknesses": []
+    }
+  },
+
+  "recommendations": {
+    "modules": [
+      "CRM",
+      "ONLINE_PAYMENTS",
+      "AUTOMATION",
+      "AI_ASSISTANT"
+    ],
+    "priority_order": [1, 2, 3, 4],
+    "justification": ""
+  },
+
+  "pricing": {
+    "plan_price": 0,
+    "dev_price": 0,
+    "negotiated": false,
+    "final_budget": 0,
+    "currency": "USD"
+  },
+
+  "payment": {
+    "mode": "MANUAL",
+    "method": "ORANGE_MONEY",
+    "status": "PENDING",
+    "proof_url": null,
+    "validated_by_admin": false,
+    "validated_at": null
+  },
+
+  "development": {
+    "choice": "UNDECIDED",
+    "technician_assigned": null,
+    "assignment_date": null,
+    "progress_status": "NOT_STARTED",
+    "revision_required": false
+  },
+
+  "documents": {
+    "plan_digitalisation": {
+      "version": "v1.0",
+      "generated": false,
+      "url": null
+    },
+    "structure_proposed": {
+      "version": "v1.0",
+      "generated": false,
+      "url": null
+    },
+    "implementation_guide": {
+      "version": "v1.0",
+      "generated": false,
+      "url": null
+    }
+  },
+
+  "logs": {
+    "client_actions": [],
+    "technician_actions": [],
+    "system_events": []
+  }
+}
